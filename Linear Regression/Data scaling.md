@@ -1,4 +1,4 @@
-<h2>Feature scaling</h2>
+<h2>Data scaling(feature scaling)</h2>
 
 Multivariable Linear Regression 에서는 많은 feature를 이용하여 결과를 도출해낸다.<br>
 각각의 feature들은 평수, 방의 개수, 지하철역까지의 거리 등 서로 다른 기준이기 때문에, 당연하게도 서로 다른 범위를 갖게 된다.<br>
