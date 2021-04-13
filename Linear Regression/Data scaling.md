@@ -13,7 +13,7 @@ Multivariable Linear Regression 에서는 많은 feature를 이용하여 결과�
 <img width="913" alt="스크린샷 2021-04-13 오후 1 48 34" src="https://user-images.githubusercontent.com/54436228/114498413-01259b00-9c5f-11eb-9118-d398eca6b935.png">
 
 Feature scaling을 통해 feature간의 범위를 조절하여 Θ값을 비슷하게 만든다.<br>
-Θ값을 비슷하게 만들면 오른쪽과 같은 그래프가 나오며, 왼쪽 그래프보다 빨리 결과를 찾을 수 있다.<br>
+Θ값을 비슷하게 만들면 오른쪽과 같은 그래프가 나오며, 왼쪽 그래프보다 빠른 시간안에 결과를 찾을 수 있다.<br>
 <img width="960" alt="스크린샷 2021-04-13 오후 1 48 45" src="https://user-images.githubusercontent.com/54436228/114498420-04208b80-9c5f-11eb-9565-1c2ace42982d.png">
 
 <h3>StandardScaler</h3>
