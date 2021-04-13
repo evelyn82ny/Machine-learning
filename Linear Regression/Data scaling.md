@@ -16,7 +16,8 @@ Feature scaling을 통해 feature간의 범위를 조절하여 Θ값을 비슷�
 Θ값을 비슷하게 만들면 오른쪽과 같은 그래프가 나오며, 왼쪽 그래프보다 빨리 결과를 찾을 수 있다.<br>
 <img width="960" alt="스크린샷 2021-04-13 오후 1 48 45" src="https://user-images.githubusercontent.com/54436228/114498420-04208b80-9c5f-11eb-9565-1c2ace42982d.png">
 
-<h3>StandardScaler() -> 표준편차 사용</h3>
+<h3>StandardScaler</h3>
+표준편차를 사용한다.<br>
 
 ```python
 import pandas as pd
@@ -30,14 +31,38 @@ standard_scaler=preprocessing.StandardScaler()
 standard_scaler.fit(x_train_DF)
 print(standard_scaler.transform(x_train_DF))
 ```
-<img width="197" alt="스크린샷 2021-04-13 오후 3 05 32" src="https://user-images.githubusercontent.com/54436228/114504361-b8271400-9c69-11eb-938b-47fec9701274.png" width=80 height=70>
+<img width="197" alt="스크린샷 2021-04-13 오후 3 05 32" src="https://user-images.githubusercontent.com/54436228/114504361-b8271400-9c69-11eb-938b-47fec9701274.png">
 
 
-<h3>MinMaxScaler() -> 0과 1사이로 변환</h3>
+<h3>MinMaxScaler</h3>
+데이터 값을 0과 1사이로 변환한다.<br>
 
 ```python 
 minmax_scaler=preprocessing.MinMaxScaler()
 minmax_scaler.fit(x_train_DF)
 print(minmax_scaler.transform(x_train_DF))
 ```
-<img width="119" alt="스크린샷 2021-04-13 오후 2 20 05" src="https://user-images.githubusercontent.com/54436228/114500620-5ebbe680-9c63-11eb-8c25-f28889638f31.png" width=100 height=80>
+<img width="119" alt="스크린샷 2021-04-13 오후 2 20 05" src="https://user-images.githubusercontent.com/54436228/114500620-5ebbe680-9c63-11eb-8c25-f28889638f31.png">
+
+<h3>MaxAbsScaler</h3>
+데이터 값을 -1과 1로 변환한 뒤, 절대값이 0과 1사이로 mapping한다.<br>
+
+```python
+abs_scaler=preprocessing.MaxAbsScaler()
+abs_scaler.fit(x_train_DF)
+print(abs_scaler.transform(x_train_DF))
+```
+<img width="186" alt="스크린샷 2021-04-13 오후 3 17 37" src="https://user-images.githubusercontent.com/54436228/114505646-a9416100-9c6b-11eb-9ba0-4c67d54358c0.png">
+
+
+
+<h3>RobustScaler</h3>
+StandardScaler, MinMaxScaler, MaxAbsScaler 방법은 outlier에 크게 반응한다.<br>
+RobustScaler는 outlier의 영향을 최소화한 기법이다.<br>
+
+```python
+rbs_scaler=preprocessing.RobustScaler()
+rbs_scaler.fit(x_train_DF)
+print(rbs_scaler.transform(x_train_DF))
+```
+<img width="125" alt="스크린샷 2021-04-13 오후 3 18 25" src="https://user-images.githubusercontent.com/54436228/114505654-aba3bb00-9c6b-11eb-95e8-928cadca8d67.png">
