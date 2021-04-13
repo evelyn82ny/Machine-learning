@@ -1,7 +1,7 @@
 <h2>Multivariable Linear Regression</h2>
 
 simple linear regression은 1개의 feature로 결과를 예측했다.<br>
-Multivariate Linear Regression은 2개 이상의 featrue로 결과를 예측한다.<br>
+Multivariable Linear Regression은 2개 이상의 featrue로 결과를 예측한다.<br>
 
 n개의 feature를 갖는 다중선형회귀 식은 다음과 같다.<br>
 `H(x) = Θ0 + Θ1*x1 + Θ2*x2 + ... + Θn*xn`<br>
