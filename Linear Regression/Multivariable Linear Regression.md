@@ -1,4 +1,4 @@
-<h2>Multivariate Linear Regression</h2>
+<h2>Multivariable Linear Regression</h2>
 
 simple linear regression은 1개의 feature로 결과를 예측했다.<br>
 Multivariate Linear Regression은 2개 이상의 featrue로 결과를 예측한다.<br>
