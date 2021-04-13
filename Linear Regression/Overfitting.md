@@ -13,7 +13,7 @@ Degree가 1 인 경우 : 모델이 간단해서 기존 데이터와의 오류가
 
 Degree가 3 ~ 10인 경우 : 기존 데이터와 어느정도 일치하는 것처럼 보인다.<br>
 
-Degree가 15인 경우 : 기존 데이ㅌ와의 정확도는 더 높아졌지만, 새로운 cosine data가 입력될 시 오차가 클 것으로 예상되며 이를 Overfitting이라고 한다.<br>
+Degree가 15인 경우 : 기존 데이터와의 정확도는 더 높아졌지만, 새로운 cosine data가 입력될 시 오차가 클 것으로 예상되며 이를 Overfitting이라고 한다.<br>
 
 눈으로 보는 것 말고 정확한 MSE 값은 다음과 같다.<br>
 > MSE(Mean Squared Error) : 실제 값과 예측값의 차이를 제곱한 평균 값<br>
