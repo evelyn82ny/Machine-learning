@@ -15,3 +15,19 @@ Multivariable Linear Regression 에서는 많은 feature를 이용하여 결과�
 Feature scaling을 통해 feature간의 범위를 조절하여 Θ값을 비슷하게 만든다.<br>
 Θ값을 비슷하게 만들면 오른쪽과 같은 그래프가 나오며, 왼쪽 그래프보다 빨리 결과를 찾을 수 있다.<br>
 <img width="960" alt="스크린샷 2021-04-13 오후 1 48 45" src="https://user-images.githubusercontent.com/54436228/114498420-04208b80-9c5f-11eb-9565-1c2ace42982d.png">
+
+<h3>MinMaxScaler()로 데이터의 값을 0과 1사이로 변환</h3>
+
+```python 
+import pandas as pd
+from sklearn import preprocessing
+
+x_train={ 'x1':[10, 12, 8, 9, 8], 
+          'x2':[1500000, 2000000, 700000, 800000, 400000] }
+x_train_DF=pd.DataFrame(x_train)
+
+minmax_scaler=preprocessing.MinMaxScaler()
+minmax_scaler.fit(x_train_DF)
+print(minmax_scaler.transform(x_train_DF))
+```
+<img width="119" alt="스크린샷 2021-04-13 오후 2 20 05" src="https://user-images.githubusercontent.com/54436228/114500620-5ebbe680-9c63-11eb-8c25-f28889638f31.png" width=100 height=80>
