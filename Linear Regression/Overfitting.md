@@ -15,12 +15,12 @@ Polynomial regression의 Degree를 증가시킬 때마다 변화를 측정한다
 
 <img width="228" alt="스크린샷 2021-04-13 오후 4 19 45" src="https://user-images.githubusercontent.com/54436228/114517647-80c06380-9c79-11eb-9354-17f6f2748a9a.png">
 
-Degree 1일 때 모델이 간단해서 기존 데이터와의 오류가 줄지 않는 상태인 Underfitting 이다.<br>
+**Degree 1**일 때 모델이 간단해서 기존 데이터와의 오류가 줄지 않는 상태인 Underfitting 이다.<br>
 
-Degree 5일 때 MSE의 값이 제일 작다.<br>
+**Degree 5**일 때 MSE의 값이 제일 작다.<br>
 즉, 새로운 test data 가 입력되어도 오차가 발생할 비율이 가장 적은 최적의 경우이다.<br>
 
-Degree가 15처럼 커질 땐 실제 데이터와의 오차는 Degree 5일 때보다 적다.<br>
+**Degree 15**일 때 커질 땐 실제 데이터와의 오차는 **Degree 5**일 때보다 적다.<br>
 하지만 머신러닝이란 새로운 데이터에 대해 정확도가 높은 예측값을 찾아내는 것이 목표다.<br>
 MSE값을 통해 새로운 데이터에 대한 오차가 큰 Overfitting이며, 좋은 모델이 아님을 알 수 있다.<br>
 
