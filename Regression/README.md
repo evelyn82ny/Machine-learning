@@ -106,7 +106,7 @@ for epoch in range(nb_epochs + 1):
 
 <img width="679" alt="스크린샷 2021-04-17 오후 4 25 24" src="https://user-images.githubusercontent.com/54436228/115105387-8b406d00-9f99-11eb-90df-95eccf922d2c.png">
 
-초기 Θ0(b), Θ1(w1), Θ2(w2), Θ3(w3) 을 0로 설정한 뒤, 20000번 훈련한 결과는<br>
+초기 b, w1, w2, w3을 0로 설정한 뒤, 20000번 훈련한 결과는<br>
 >w1 = 0.6807<br> 
 w2 = 0.6785<br>
 w3 = 0.6677<br>
