@@ -2,7 +2,7 @@
 
 https://www.kaggle.com/c/bike-sharing-demand/data
 
-<h5>Ordinary Least Squares 한 결과 다음과 같다.</h5>
+<h5>Ordinary Least Squares 추정 방식으로 구현한 결과는 다음과 같다.</h5>
 <img width="288" alt="스크린샷 2021-04-15 오전 8 13 16" src="https://user-images.githubusercontent.com/54436228/114795518-afe5ea80-9dc9-11eb-9bb1-f62f80996586.png">
 
 <h4>y_target log1p로 변환</h4>
