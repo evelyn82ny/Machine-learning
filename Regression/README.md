@@ -3,7 +3,7 @@
 **Regression analysis란 관찰된 연속형 변수들 사이의 모델을 구현하여 적합도를 측정해 내는 분석 방법**이라고 wikipedia에 정의되어있다.<br>
 
 <h3>Hypothesis</h3>
-<img width="1045" alt="스크린샷 2021-04-17 오후 12 53 44" src="https://user-images.githubusercontent.com/54436228/115101053-1ad72300-9f7c-11eb-8950-9effd01a92d4.png">
+<img width="500" alt="스크린샷 2021-04-17 오후 12 53 44" src="https://user-images.githubusercontent.com/54436228/115101053-1ad72300-9f7c-11eb-8950-9effd01a92d4.png">
 
 - m : Number of training examples
 - 𝑥′𝑠 : input variable or features
