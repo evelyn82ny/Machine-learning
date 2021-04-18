@@ -119,7 +119,7 @@ def visualize_coefficient(models):
         coef_high, coef_low = get_top_bottom_coef(model)
         coef_concat = pd.concat( [coef_high , coef_low] )
         
-        axs[i_num].set_title(model.__class__.__name__+' Coeffiecents', size=25)
+        axs[i_num].set_title(model.__class__.__name__+' Coefficients', size=25)
         axs[i_num].tick_params(axis="y",direction="in", pad=-10)
         for label in (axs[i_num].get_xticklabels() + axs[i_num].get_yticklabels()):
             label.set_fontsize(22)
