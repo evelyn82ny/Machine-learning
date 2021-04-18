@@ -16,3 +16,11 @@ Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the logarith
 <img width="291" alt="스크린샷 2021-04-19 오전 12 41 22" src="https://user-images.githubusercontent.com/54436228/115151477-009a6380-a0a8-11eb-956f-5c9abd0ca4df.png">
 
 <img width="569" alt="스크린샷 2021-04-19 오전 12 43 35" src="https://user-images.githubusercontent.com/54436228/115151553-4d7e3a00-a0a8-11eb-82a2-a0d6deb82bf9.png">
+
+<h4>K-5 교차검증한 결과</h4>
+<img width="456" alt="스크린샷 2021-04-19 오전 12 45 49" src="https://user-images.githubusercontent.com/54436228/115151612-9df59780-a0a8-11eb-826c-c4ac128fb9ad.png">
+
+<h4>최적의 alpha값으로 K-5 교차검증한 결과</h4>
+<img width="438" alt="스크린샷 2021-04-19 오전 12 49 59" src="https://user-images.githubusercontent.com/54436228/115151742-34c25400-a0a9-11eb-8868-d4c5e4e8f7b9.png">
+<img width="528" alt="스크린샷 2021-04-19 오전 12 53 41" src="https://user-images.githubusercontent.com/54436228/115151861-b619e680-a0a9-11eb-94d4-ca95eb7d972c.png">
+
