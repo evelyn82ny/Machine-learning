@@ -13,7 +13,7 @@ Submissions are evaluated one the Root Mean Squared Logarithmic Error RMSLE<br>
 <h4>y_target log1p로 변환</h4>
 
 기존 데이터보다 조금 더 정규분포된 형태로 만들기 위해 log1p로 변환<br>
-<img width="887" alt="스크린샷 2021-04-15 오전 9 17 13" src="https://user-images.githubusercontent.com/54436228/114796227-65656d80-9dcb-11eb-927b-4224b7fbd87e.png">
+<img width="560" alt="스크린샷 2021-04-15 오전 9 17 13" src="https://user-images.githubusercontent.com/54436228/114796227-65656d80-9dcb-11eb-927b-4224b7fbd87e.png">
 
 <h5>log1p로 변환한 결과 다음과 같다.</h5>
 <img width="281" alt="스크린샷 2021-04-15 오전 8 19 00" src="https://user-images.githubusercontent.com/54436228/114795735-431f2000-9dca-11eb-8577-b11193a99235.png">
