@@ -8,6 +8,7 @@
 
 - Polynomial Regression
 - [Over fitting](https://github.com/evelyn82/Machine-learning/blob/main/Regression/Overfitting.md)
+- Bias-variance tradeoff
 
 <h2>Classification</h2>
 
