@@ -5,7 +5,7 @@ Data Scaling이나 Normalization 등의 사전 가공의 영향이 매우 적다
 <img width="350" alt="스크린샷 2021-04-19 오전 11 03 59" src="https://user-images.githubusercontent.com/54436228/115172397-25222a00-a100-11eb-9d9d-be42877dc946.png">
 
 하지만 layer가 늘어나면, node와 leap가 증가한다.<br>
-이는 over fitting이 발생하기 때문에 성능 저하를 제어하는 설정이 필요하다.<br>
+즉, over fitting이 발생하기 때문에 성능 저하를 제어하는 설정이 필요하다.<br>
 
 <h4>feature_importances_</h4>
 DecisionClassifier 객체는 feature_importances_ 을 통해 예측애 중요한 Feature들을 선택해준다.<br>
