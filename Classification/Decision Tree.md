@@ -27,4 +27,3 @@ DecisionClassifier 객체는 feature_importances_ 을 통해 예측애 중요한
 > dt_clf = DecisionTreeClassifier(min_samples_leaf = 6).fit(X_features, y_labels)
 <img width="300" alt="스크린샷 2021-04-19 오전 11 31 40" src="https://user-images.githubusercontent.com/54436228/115174342-0de53b80-a104-11eb-9ec4-1f0b7f7841ed.png">
 크게 분류된 영역 사이에 다른 점이 존재해도 따로 분류되지 않은 예측 오류임을 알 수 있다.<br>
-예측 오류지만, 새로운 데이터의 예측에 대해선 더 좋은 성능을 낼 수 있다.<br>
