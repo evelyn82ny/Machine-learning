@@ -1,10 +1,11 @@
 <h2>Decision Tree</h2>
 
-특정 기준으로 데이터를 구분하는 모델이다.<br>
+특정 기준으로 데이터를 구분하는 매우 쉽고 유연하게 적용될 수 있는 모델이다.<br>
+Data Scaling이나 Normalization 등의 사전 가공의 영향이 매우 적다.<br>
 <img width="350" alt="스크린샷 2021-04-19 오전 11 03 59" src="https://user-images.githubusercontent.com/54436228/115172397-25222a00-a100-11eb-9d9d-be42877dc946.png">
 
-위 사진처럼 layer가 늘어나면, node와 leap가 증가한다.<br>
-이는 over fitting으로 성능 저하를 제어하기 설정이 필요하다.<br>
+하지만 layer가 늘어나면, node와 leap가 증가한다.<br>
+이는 over fitting이 발생하기 때문에 성능 저하를 제어하는 설정이 필요하다.<br>
 
 <h4>feature_importances_</h4>
 DecisionClassifier 객체는 feature_importances_ 을 통해 예측애 중요한 Feature들을 선택해준다.<br>
