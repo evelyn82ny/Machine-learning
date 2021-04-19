@@ -5,7 +5,6 @@
 - [Regression](https://github.com/evelyn82/Machine-learning/blob/main/Regression/README.md)
 - Evaluation index of regression model
 - [Data scaling](https://github.com/evelyn82/Machine-learning/blob/main/Regression/Data%20scaling.md)
-
 - Polynomial Regression
 - [Bias-variance tradeoff](https://github.com/evelyn82/Machine-learning/blob/main/Regression/Bias-variance%20tradeoff.md)
 
