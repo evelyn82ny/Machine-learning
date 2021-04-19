@@ -7,8 +7,7 @@
 - [Data scaling](https://github.com/evelyn82/Machine-learning/blob/main/Regression/Data%20scaling.md)
 
 - Polynomial Regression
-- [Over fitting](https://github.com/evelyn82/Machine-learning/blob/main/Regression/Overfitting.md)
-- Bias-variance tradeoff
+- [Bias-variance tradeoff](https://github.com/evelyn82/Machine-learning/blob/main/Regression/Bias-variance%20tradeoff.md)
 
 <h2>Classification</h2>
 
