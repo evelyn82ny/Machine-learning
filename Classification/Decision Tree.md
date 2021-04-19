@@ -24,11 +24,11 @@ pruning이란 overfitting을 막기위한 전략기법이다.<br>
 
 > dt_clf = DecisionTreeClassifier().fit(X_features, y_labels)
 <img width="300" alt="스크린샷 2021-04-19 오전 11 31 20" src="https://user-images.githubusercontent.com/54436228/115174333-09208780-a104-11eb-99ef-30e7c83ed3a0.png">
-파란색/초록색으로 크게 분류된 영역 사이에 빨간 점으로 다시 분류된 경계가 있음을 알 수 있다.<br>
+파란색/초록색 범주 안에 빨간 점으로 다시 분류된 경계가 있음을 알 수 있다.<br>
 
 
 <h4>결정 트리에 최소 6개의 leaf노드가 설정되도록 제약을 주는 경우</h4>
 
 > dt_clf = DecisionTreeClassifier(min_samples_leaf = 6).fit(X_features, y_labels)
 <img width="300" alt="스크린샷 2021-04-19 오전 11 31 40" src="https://user-images.githubusercontent.com/54436228/115174342-0de53b80-a104-11eb-9ec4-1f0b7f7841ed.png">
-크게 분류된 영역 사이에 다른 점이 존재해도 따로 분류되지 않은 예측 오류임을 알 수 있다.<br>
+큰 범주 안에 다른 점이 존재해도 따로 분류되지 않은 채 끝난다.<br>
