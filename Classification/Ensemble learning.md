@@ -31,6 +31,11 @@ vo_clf = VotingClassifier( estimators=[('LR',lr_clf),('KNN',knn_clf)] , voting='
 bagging의 대표적인 알고리즘은 random forest이다.<br>
 여러 개의 decision tree classifier가 전체 데이터에서 bagging 방식으로 각자의 데이터를 sampling하여 개별적으로 학습으로 수행한 뒤, 최종적으로 모든 classifier가 vorting을 통해 예측 결정한다.<br>
 
+<img width="700" src="https://user-images.githubusercontent.com/54436228/115263427-62be9b80-a170-11eb-8261-f361df9304a2.png">
+
+5개의 Decision Tree는 불완전한 경계를 나타낸다.<br>
+오른쪽 맨 아래의 random forest의 경우 훨씬 좋은 결정 경계가 만들어진다.<br>
+
 
 <h3>Boosting</h3>
 <h3>Stacking</h3>
