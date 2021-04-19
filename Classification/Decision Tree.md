@@ -7,10 +7,15 @@ Data Scaling이나 Normalization 등의 사전 가공의 영향이 매우 적다
 하지만 layer가 늘어나면, node와 leap가 증가한다.<br>
 즉, over fitting이 발생하기 때문에 성능 저하를 제어하는 설정이 필요하다.<br>
 
-<h4>feature_importances_</h4>
-DecisionClassifier 객체는 feature_importances_ 을 통해 예측애 중요한 Feature들을 선택해준다.<br>
+<h3>Pruning</h3>
+pruning이란 overfitting을 막기위한 전략기법이다.<br>
 
-<h3>Decision tree Overfitting</h3>
+- max_depth : 트리의 최대 깊이 규정
+- max_features : 최적의 분할을 위해 고려할 최대 feature 개수
+- min_samples_split : 노드를 분할하기 위한 최소한의 샘플 데이터 수
+- min_samples_leaf : leaf가 되기 위한 최소한의 샘플 데이터 수
+- max_laef_nodes : leaf의 최대 개수
+
 
 3가지 유형의 classification 샘플 데이터를 생성한다.<br>
 <img width="300" alt="스크린샷 2021-04-19 오전 11 25 38" src="https://user-images.githubusercontent.com/54436228/115173405-2fddbe80-a102-11eb-989a-4a2e89fbe053.png">
