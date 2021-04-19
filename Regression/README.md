@@ -25,6 +25,12 @@ cost function을 **𝐽(𝜃)** 라고 하며, **𝐽(𝜃)의 값이 최소가 
 양수와 음수가 서로 상쇄되는 것을 막기위해 **ℎ𝜃(𝑥)−𝑦** 에 제곱을 한다.<br>
 위 식은 모든 오차의 제곱을 더해 평균한 MSE(Mean Square Error)이며, 다양한 비용함수 중 가장 보편적으로 사용된다.<br>
 
+<h3>데이터 변환</h3> 
+linear regression model은 feature와 target간에 선형 관계가 있다고 가정하고 최적의 결과값을 예측한다.<br>
+또한 feature와 target간의 분포가 정규 분포 형태를 선호하므로 log1p를 사용하여 변환해준다.<br>
+ <img width="558" alt="스크린샷 2021-04-19 오후 2 55 01" src="https://user-images.githubusercontent.com/54436228/115188084-59f1a980-a11f-11eb-8ed6-905983d1d193.png">
+
+ 
  
 <h2>Single Linear Regression</h2>
 
