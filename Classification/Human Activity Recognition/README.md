@@ -13,7 +13,8 @@ https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartph
 <h3>max_depth 설정한 결정 트리의 경우</h3>
 
 > max_depths = [ 6, 8 ,10, 12, 16 ,20, 24]
-<img width="272" alt="스크린샷 2021-04-19 오후 12 42 58" src="https://user-images.githubusercontent.com/54436228/115178988-53f2cd00-a10d-11eb-9cf2-9425eb339152.png">
+<img width="273" alt="스크린샷 2021-04-19 오후 1 21 12" src="https://user-images.githubusercontent.com/54436228/115181169-4b50c580-a112-11eb-93a1-f814554aba4c.png">
+
 
 depth = 8 일 때 **accuracy : 0.870716** 으로 가장 높고<br>
-depth = 16 일 때 **mean_test_score : 0.851344** 으로 가장 최적임을 알 수 있다.<br>
+depth = 16 일 때 **mean_test_score : 0.851344** 으로 가장 최적이며, **accuracy : 0.857482** 이다.<br>
