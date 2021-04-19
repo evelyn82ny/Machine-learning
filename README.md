@@ -12,6 +12,6 @@
 <h2>Classification</h2>
 
 - [Decision Tree](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Decision%20Tree.md)
-- [Gini coefficient](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Entropy_Gini%20coefficient.md)
-
+- [Entropy](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Entropy.md)
+- Gini coefficient
 - Ensemble
