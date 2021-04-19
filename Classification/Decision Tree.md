@@ -23,4 +23,4 @@ DecisionClassifier 객체는 feature_importances_ 을 통해 예측애 중요한
 결정 트리에 최소 6개의 leaf노드가 설정되도록 제약을 주는 경우
 > dt_clf = DecisionTreeClassifier(min_samples_leaf = 6).fit(X_features, y_labels)
 <img width="300" alt="스크린샷 2021-04-19 오전 11 31 40" src="https://user-images.githubusercontent.com/54436228/115174342-0de53b80-a104-11eb-9ec4-1f0b7f7841ed.png">
-파란색/초록색으로 크게 분류된 영역 사이에 빨간 점이 존재해도 따로 분류되지 않았음을 알 수 있다.<br>
+크게 분류된 영역 사이에 다른 점이 존재해도 따로 분류되지 않았음을 알 수 있다.<br>
