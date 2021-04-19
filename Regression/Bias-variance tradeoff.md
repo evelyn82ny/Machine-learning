@@ -1,4 +1,4 @@
-<h2>Overfitting</h2>
+<h2>Bias-variance tradeoff</h2>
 
 주어진 train_data에 대해서는 오차가 적지만, 실제 test_data에서는 큰 오차를 보여 성능이 나빠지는 것을 말한다.<br>
 
