@@ -8,3 +8,8 @@
 
 - Polynomial Regression
 - [Over fitting](https://github.com/evelyn82/Machine-learning/blob/main/Regression/Overfitting.md)
+
+<h2>Classification</h2>
+
+- [Decision Tree](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Decision%20Tree.md)
+- Gini coefficient
