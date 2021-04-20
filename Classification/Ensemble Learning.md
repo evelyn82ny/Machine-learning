@@ -25,6 +25,7 @@ vo_clf = VotingClassifier( estimators=[('LR',lr_clf),('KNN',knn_clf)] , voting='
 개별보다 voting했을 때의 성능이 좋아진 것을 확인할 수 있다.<br>
 
 <h2>Bagging (Bootstrap Aggregating)</h2>
+
 Bootstrap 분할 방식으로 sampling data set을 여러 classifier에 독립적으로 학습시킨 결과를 Aggregration하는 방식<br>
 
 > Bootstrap : n_samples개의 데이터 포인트 중에서 무작위로 데이터를 n_samples 횟수만큼 반복 추출하는 방식<br>
@@ -34,6 +35,7 @@ Bootstrap 분할 방식으로 sampling data set을 여러 classifier에 독립�
 - Continuous Data : average로 결과 집계
 
 <h3>Random forest</h3>
+
 bootstrap에 의해 만들어진 sample dataset으로 decision tree를 만들때 후보 특성을 random하게 선택하여 분할한다.<br>
 
 - max_features : 몇 개의 특성을 고를지 설정하는 매개변수<br>random forest의 트리를 분할하는 feature를 참조할 때 sqrt(전체 feature 개수)만큼 참조
@@ -54,6 +56,7 @@ mak_features 값을 낮추면 random forest의 트리들이 달라지며, 각 �
 
 
 <h2>Boosting</h2>
+
 bagging의 경우 여러 classifier가 독립적으로 학습했다면<br>
 boosting은 여러 weak classifier가 순차적으로 학습하며, 데이터에 가중치를 부여해 오류를 개선해나가는 방식<br>
 결과는 좋지만 weak classifier를 순차적으로 학습하는 방식이므로 다소 시간이 소요되는 문제가 있다.<br>
@@ -65,6 +68,7 @@ boosting은 여러 weak classifier가 순차적으로 학습하며, 데이터에
 > <h8> 출처 : 파이썬 머신러닝 완벽 가이드</h8>
 
 <h3>GBM (Gradient Boost Machine)</h3>
+
 Adaboost와 유사하지만, 가중치 업데이트를 Gradient Descent를 이용<br>
 
 - n_estimators : weak learner 개수
