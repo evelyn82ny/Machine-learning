@@ -80,5 +80,14 @@ n_estimators가 클수록 모델이 복잡해지고 많은 시간이 소요되�
 GBM에서는 max_depth를 작게 설정하여 메모리를 적게 사용 및 빠른 예측을 하고<br>
 깊지않은 트리모델을 많이 연결하여 성능을 좋게한다.<br>
 
+<h3>bagging과 boosting의 차이</h3>
+
+<img width="500" src="https://user-images.githubusercontent.com/54436228/115329188-ead28e80-a1cc-11eb-8a94-9d6a8df6ba4d.png">
+
+> <h8>출처 : bkshin.tistory </h8>
+
+bagging은 병렬 학습으로 여러 classifier가 독립적이다.<br>
+boosting은 순차적 학습으로 오류에 가중치를 부여하여 여러 classfier를 거치는 동안 오류에 집중하게 되어 bagging에 비해 오류가 적어 성능이 좋다.<br>
+하지만 순차적 학습이므로 속도가 느리고 overfitting 될 가능성이 있다.<br>
 
 <h2>Stacking</h2>
