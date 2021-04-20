@@ -36,7 +36,7 @@ bagging의 대표적인 알고리즘은 random forest이다.<br>
 
 <img width="700" src="https://user-images.githubusercontent.com/54436228/115263427-62be9b80-a170-11eb-8261-f361df9304a2.png">
 
-> <h8> 출처 : tensorflow blog/h8>
+> <h8> 출처 : tensorflow blog</h8>
 
 오른쪽 맨 아래를 제외한 5개의 Decision Tree의 dicision boundary는 불완전한 경계를 나타낸다.<br>
 오른쪽 맨 아래의 random forest의 dicision boundary는 위 5개의 평균으로 만들었으며, 훨씬 좋은 결정 경계가 만들어진다.<br>
@@ -57,4 +57,4 @@ boosting은 여러 weak classifier가 순차적으로 학습하며, 데이터에
 Adaboost와 유사하지만, 가중치 업데이트를 Gradient Descent를 이용<br>
 
 
-<h3>Stacking</h3>
+<h2>Stacking</h2>
