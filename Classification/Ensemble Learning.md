@@ -34,7 +34,6 @@ Bootstrap 분할 방식으로 sampling data set을 여러 classifier에 독립�
 - Continuous Data : average로 결과 집계
 
 <h3>Random forest</h3>
-bagging의 대표적인 알고리즘은 random forest이다.<br>
 bootstrap에 의해 만들어진 sample dataset으로 decision tree를 만들때 후보 특성을 random하게 선택하여 분할한다.<br>
 
 - max_features : 몇 개의 특성을 고를지 설정하는 매개변수<br>random forest의 트리를 분할하는 feature를 참조할 때 sqrt(전체 feature 개수)만큼 참조
