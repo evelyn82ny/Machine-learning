@@ -93,4 +93,6 @@ bagging은 병렬 학습으로 여러 classifier가 독립적이다.<br>
 boosting은 순차적 학습으로 오류에 가중치를 부여하여 여러 classfier를 거치는 동안 오류에 집중하게 되어 bagging에 비해 오류가 적어 성능이 좋다.<br>
 하지만 순차적 학습이므로 속도가 느리고 overfitting 될 가능성이 있다.<br>
 
+GBM의 단점을 해결한 모델은 XGBoost, LightGBM 이다.<br>
+
 <h2>Stacking</h2>
