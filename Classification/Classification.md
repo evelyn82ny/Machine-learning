@@ -25,4 +25,5 @@ classification 문제를 linear regression으로 해결할 경우 다음과 같�
 
 logistic regression은 0과 1사이의 예측 값을 갖는 sigmoid function으로 위의 문제를 해결한다.<br>
 
-<img width="500" alt="스크린샷 2021-04-20 오후 9 43 56" src="https://user-images.githubusercontent.com/54436228/115397910-8db4f800-a221-11eb-8025-d2e10290b40a.png">
+<img width="750" alt="스크린샷 2021-04-20 오후 9 58 19" src="https://user-images.githubusercontent.com/54436228/115399838-90185180-a223-11eb-84b4-c9990b8a9950.png">
+
