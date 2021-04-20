@@ -11,6 +11,7 @@
 <h2>Classification</h2>
 
 - [Classification](https://github.com/evelyn82/Machine-Learning/blob/main/Classification/Logistic%20regression.md)
+- [Cost Function](https://github.com/evelyn82/Machine-Learning/blob/main/Classification/Cost%20Function_classification.md)
 - [Decision Tree](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Decision%20Tree.md)
 - [Entropy](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Entropy.md)
 - Gini coefficient
