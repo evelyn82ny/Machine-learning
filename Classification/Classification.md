@@ -23,4 +23,7 @@ classification 문제를 linear regression으로 해결할 경우 다음과 같�
 
 <h2>Logistic Regression</h2>
 
-logistic regression은 예측값이 0과 1사이이므로 위의 문제가 해결된다.
+logistic regression은 0과 1사이의 예측 값을 갖는 sigmoid function으로 위의 문제를 해결한다.<br>
+
+<img width="311" alt="스크린샷 2021-04-20 오후 9 33 13" src="https://user-images.githubusercontent.com/54436228/115396651-31050d80-a220-11eb-838a-c9ff9b459c75.png">
+<img width="150" alt="스크린샷 2021-04-20 오후 9 32 34" src="https://user-images.githubusercontent.com/54436228/115396890-745f7c00-a220-11eb-87ed-2fea8b6d4e43.png">
