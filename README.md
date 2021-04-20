@@ -10,7 +10,7 @@
 
 <h2>Classification</h2>
 
-- [Classification](https://github.com/evelyn82/Machine-Learning/blob/main/Classification/Classification.md)
+- [Classification](https://github.com/evelyn82/Machine-Learning/blob/main/Classification/Logistic%20regression.md)
 - [Decision Tree](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Decision%20Tree.md)
 - [Entropy](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Entropy.md)
 - Gini coefficient
