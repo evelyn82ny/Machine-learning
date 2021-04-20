@@ -38,7 +38,7 @@ bagging의 대표적인 알고리즘은 random forest이다.<br>
 bootstrap에 의해 만들어진 sample dataset으로 decision tree를 만들때 후보 특성을 random하게 선택하여 분할한다.<br>
 
 - max_features : 몇 개의 특성을 고를지 설정하는 매개변수로 random forest의 트리르 분할하는 feature를 참조할 때 sqrt(전체 feature 개수)만큼 참조
-- 
+
 후보 특성을 고르는 것을 매 노드마다 반복된다.<br>
 즉, 트리의 각 분기는 다른 특성 부분 집합을 사용한다.<br>
 max_features 를 n_features로 설정하면 특성 선택에 무작위성이 적용되지 않고, bootstrap에만 무작위성이 적용된다.<br>
