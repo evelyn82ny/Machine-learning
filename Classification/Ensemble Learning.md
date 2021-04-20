@@ -1,6 +1,6 @@
 <h1>Ensemble learning</h1>
 
-여러 개의 Weak Classifier를 생성하고, 그 예측을 결합하여 보다 정확한 Strong Classifier를 통해 최종 예측을 도출하는 기법<br><br>
+여러 개의 Classifier에 대한 예측을 결합하여 보다 정확한 최종 예측을 도출하는 기법<br><br>
 random forest 및 boosting algorithm들은 decision tree 알고리즘을 기반으로 한다.<br>
 decision tree의 단점인 overfitting을 많은 classifier르 결합하여 보완하고,<br>
 장점인 직관적인 분류 기준은 강화된다.<br>
@@ -25,7 +25,10 @@ vo_clf = VotingClassifier( estimators=[('LR',lr_clf),('KNN',knn_clf)] , voting='
 개별보다 voting했을 때의 성능이 좋아진 것을 확인할 수 있다.<br>
 
 <h2>Bagging (Bootstrap Aggregating)</h2>
-모두 같은 알고리즘을 갖는 classifier이지만, Bootstrap 분할 방식으로 여러 sampling data set을 학습시켜 결과를 Aggregration하는 방식<br>
+Bootstrap 분할 방식으로 sampling data set을 여러 classifier에 독립적으로 학습시킨 결과를 Aggregration하는 방식<br>
+
+- Categorical Data : Voting으로 결과 집계
+- Continuous Data : average로 결과 집계
 
 <h3>Random forest</h3>
 bagging의 대표적인 알고리즘은 random forest이다.<br>
@@ -33,9 +36,25 @@ bagging의 대표적인 알고리즘은 random forest이다.<br>
 
 <img width="700" src="https://user-images.githubusercontent.com/54436228/115263427-62be9b80-a170-11eb-8261-f361df9304a2.png">
 
-5개의 Decision Tree는 불완전한 경계를 나타낸다.<br>
-오른쪽 맨 아래의 random forest의 경우 훨씬 좋은 결정 경계가 만들어진다.<br>
+> <h8> 출처 : tensorflow blog/h8>
+
+오른쪽 맨 아래를 제외한 5개의 Decision Tree의 dicision boundary는 불완전한 경계를 나타낸다.<br>
+오른쪽 맨 아래의 random forest의 dicision boundary는 위 5개의 평균으로 만들었으며, 훨씬 좋은 결정 경계가 만들어진다.<br>
 
 
-<h3>Boosting</h3>
+<h2>Boosting</h2>
+bagging의 경우 여러 classifier가 독립적으로 학습했다면<br>
+boosting은 여러 weak classifier가 순차적으로 학습하며, 데이터에 가중치를 부여해 오류를 개선해나가는 방식<br>
+결과는 좋지만 weak classifier를 순차적으로 학습하는 방식이므로 다소 시간이 소요되는 문제가 있다.<br>
+
+<h3>AdaBoost (Adaptive boosting)</h3>
+
+<img width="800" alt="스크린샷 2021-04-20 오전 10 34 54" src="https://user-images.githubusercontent.com/54436228/115324036-23219f00-a1c4-11eb-9a09-121e1ff0d277.png">
+
+> <h8> 출처 : 파이썬 머신러닝 완벽 가이드</h8>
+
+<h3>GBM (Gradient Boost Machine)</h3>
+Adaboost와 유사하지만, 가중치 업데이트를 Gradient Descent를 이용<br>
+
+
 <h3>Stacking</h3>
