@@ -35,6 +35,7 @@ entropy는 주어진 데이터 집합의 impurity를 수치적으로 나타낸�
 
 
 <h2>Infomation Gain 정보이득</h2>
+
 Entropy을 기반으로 하며, Decision tree는 정보이득이 커지는 방향으로 분할 기준을 정한다.<br>
 <img width="400" alt="스크린샷 2021-04-19 오후 2 14 15" src="https://user-images.githubusercontent.com/54436228/115184819-928e8480-a119-11eb-9767-a3acb1f6460e.png">
 상위노드의 entropy에서 하위노도의 enttopy의 총합을 뺀다.<br>
