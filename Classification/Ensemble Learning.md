@@ -27,12 +27,24 @@ vo_clf = VotingClassifier( estimators=[('LR',lr_clf),('KNN',knn_clf)] , voting='
 <h2>Bagging (Bootstrap Aggregating)</h2>
 Bootstrap 분할 방식으로 sampling data set을 여러 classifier에 독립적으로 학습시킨 결과를 Aggregration하는 방식<br>
 
+> Bootstrap : n_samples개의 데이터 포인트 중에서 무작위로 데이터를 n_samples 횟수만큼 반복 추출하는 방식<br>
+> 만들어진 sample dataset은 원래 dataset의 크기와 같지만, 데이터 포인터가 누락 / 중복될 수 있다.
+
 - Categorical Data : Voting으로 결과 집계
 - Continuous Data : average로 결과 집계
 
 <h3>Random forest</h3>
 bagging의 대표적인 알고리즘은 random forest이다.<br>
-여러 개의 decision tree classifier가 전체 데이터에서 bagging 방식으로 각자의 데이터를 sampling하여 개별적으로 학습으로 수행한 뒤, 최종적으로 모든 classifier가 vorting을 통해 예측 결정한다.<br>
+bootstrap에 의해 만들어진 sample dataset으로 decision tree를 만들때 후보 특성을 random하게 선택하여 분할한다.<br>
+
+- max_features : 몇 개의 특성을 고를지 설정하는 매개변수로 random forest의 트리르 분할하는 feature를 참조할 때 sqrt(전체 feature 개수)만큼 참조
+- 
+후보 특성을 고르는 것을 매 노드마다 반복된다.<br>
+즉, 트리의 각 분기는 다른 특성 부분 집합을 사용한다.<br>
+max_features 를 n_features로 설정하면 특성 선택에 무작위성이 적용되지 않고, bootstrap에만 무작위성이 적용된다.<br>
+max_features 값을 크게 하면 random forest의 트리들이 비슷해지며, 가장 두드러진 특성을 이용해 데이터에 잘 맞춰진다.<br>
+mak_features 값을 낮추면 random forest의 트리들이 달라지며, 각 트리는 데이터에 맞축 위해 깊이가 깊어진다.<br>
+
 
 <img width="700" src="https://user-images.githubusercontent.com/54436228/115263427-62be9b80-a170-11eb-8261-f361df9304a2.png">
 
@@ -55,6 +67,18 @@ boosting은 여러 weak classifier가 순차적으로 학습하며, 데이터에
 
 <h3>GBM (Gradient Boost Machine)</h3>
 Adaboost와 유사하지만, 가중치 업데이트를 Gradient Descent를 이용<br>
+
+- n_estimators : weak learner 개수
+- learning_rate : weak learner가 순차적으로 오차를 보정하는 정도르 조절하는 계수
+
+learning_rate를 낮추면 비슷한 복잡도의 모델을 만들기 위해 n_estimators 를 높여 트리를 추가해야한다.<br>
+n_estimators가 클수록 모델이 복잡해지고 많은 시간이 소요되며, overfitting일 가능성이 높다.<br>
+2개의 매개변수을 잘 조절해야하는데, 보통 가용시간과 메모리 한도에서 n_estimators를 맞춘 뒤 적절한 learning_rate을 찾는다.<br>
+
+- max_depth : 매우 작게 설정하여 5보다 깊어지지 않게 한다.<br>
+
+GBM에서는 max_depth를 작게 설정하여 메모리를 적게 사용 및 빠른 예측을 하고<br>
+깊지않은 트리모델을 많이 연결하여 성능을 좋게한다.<br>
 
 
 <h2>Stacking</h2>
