@@ -2,7 +2,7 @@
 
 <img width="350" alt="스크린샷 2021-04-19 오후 2 28 33" src="https://user-images.githubusercontent.com/54436228/115185916-be126e80-a11b-11eb-9efb-aadfab72859b.png">
 
-위 그래프 : [wikipedia](https://ko.wikipedia.org/wiki/지니_계수) 자료 사용
+> <h8> wikipedia 자료 사용</h8>
 
 - A영역 : 불평등 면적 (로렌츠 곡선과 완전균형 대각선과의 사이)
 - B영역 : 삼각형 전체면적 - A영역
