@@ -8,6 +8,7 @@ Data Scaling이나 Normalization 등의 사전 가공의 영향이 매우 적다
 즉, over fitting이 발생하기 때문에 성능 저하를 제어하는 설정이 필요하다.<br>
 
 <h3>Pruning</h3>
+
 pruning이란 overfitting을 막기위한 전략기법이다.<br>
 
 - max_depth : 트리의 최대 깊이 규정
