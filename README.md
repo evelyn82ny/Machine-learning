@@ -12,7 +12,7 @@
 
 - [Logistic regression](https://github.com/evelyn82/Machine-Learning/blob/main/Classification/Logistic%20regression.md)
 - [Cost Function](https://github.com/evelyn82/Machine-Learning/blob/main/Classification/Cost%20Function_classification.md)
-- Multiclass Classification: One-vs-all
+- [Multiclass Classification: One-vs-all](https://github.com/evelyn82/Machine-Learning/blob/main/Classification/Multiclass%20Classification.md)
 - [Decision Tree](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Decision%20Tree.md)
 - [Entropy](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Entropy.md)
 - Gini coefficient
