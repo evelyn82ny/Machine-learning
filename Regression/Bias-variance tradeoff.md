@@ -20,7 +20,7 @@ feature의 수가 많아질수록 모든 feature를 만족시키는 모델을 �
 <h3>overfitting 해결방법</h3>
 
 - Reduce number of features : 많은 특성 중 몇개만 선택한다.
-- Regularization : 모든 특성을 유지하되 parameters Θ에 영향을 주는 magnitude/values 를 줄인다.
+- Regularization : 모든 특성을 유지하되 parameters 𝜃에 영향을 주는 magnitude/values 를 줄인다.
   
 
 <h2>구현</h2>
