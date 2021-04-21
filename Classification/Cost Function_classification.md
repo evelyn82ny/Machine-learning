@@ -1,3 +1,5 @@
+> <h8>모든 그래프는 Andrew Ng의 Machine Learning강의에서 사용</h8>
+
 <h2>Cost Function</h2>
 
 linear regression의 cost function을 그대로 사용할 수 없다.<br>
@@ -39,4 +41,8 @@ linear regression cost function에 sigmoid function을 사용할 경우 왼쪽 �
 위 𝐽(𝜃)은 convex 함수이므로 logistic function model에서 사용된다.<br>
 maximum likelihood estimation원리로 유도된 식이며, 다른 모델들에 대해 최적의 𝜃를 구하는 가장 효율적이 함수이다.<br>
 𝐽(𝜃)를 최소로 만드는 즉, Global optimal가 되는 𝜃를 구하기 위해 gradient descent에 적용한다.<br>
+
+<h2>Gradient descent</h2>
+
+<img width="400" alt="스크린샷 2021-04-21 오전 9 50 56" src="https://user-images.githubusercontent.com/54436228/115481408-86c0d080-a287-11eb-8069-d87234a63b91.png">
 
