@@ -13,6 +13,8 @@ cost function을 **𝐽(𝜃)** 라고 하며, **𝐽(𝜃)의 값이 최소가 
 
 <h2>𝜃1에 대한 cost funtcion</h2>
 
+𝐽(𝜃)=0 경우 𝐽(𝜃1)의 값이 최소가 되는 cost function은 다음과 같다.<br>
+
 <img width="650" alt="스크린샷 2021-04-21 오후 1 28 39" src="https://user-images.githubusercontent.com/54436228/115497271-50df1480-a2a6-11eb-847b-50cc54ac1e46.png">
 
 
@@ -22,3 +24,11 @@ cost function을 **𝐽(𝜃)** 라고 하며, **𝐽(𝜃)의 값이 최소가 
 
 <img width="650" alt="스크린샷 2021-04-21 오후 1 28 46" src="https://user-images.githubusercontent.com/54436228/115497411-913e9280-a2a6-11eb-99ca-e693de159757.png">
 
+3차원 그래프를 오른쪽과 같이 2차원 등고선 표현하며, 등고선 중심와 가까울수록 좋은 hypothesis이다.<br>
+
+오른쪽 빨간색 X은 중심과 많이 떨어져있으며, 왼쪽 그래프를 통해 알 수 있듯이 많은 error가 발생되는 hypothesis임을 알 수 있다.<br>
+<img width="605" alt="스크린샷 2021-04-21 오후 1 45 38" src="https://user-images.githubusercontent.com/54436228/115498105-e4651500-a2a7-11eb-8ada-ac88f6a681cc.png">
+
+
+오른쪽 빨간색 X은 중심과 근접하며 왼쪽 그래프를 통해 실제 데이터와 근접한 hypothesis임을 알 수 있다.<br>
+<img width="586" alt="스크린샷 2021-04-21 오후 1 45 45" src="https://user-images.githubusercontent.com/54436228/115498489-9ef51780-a2a8-11eb-9881-13d29fe2451f.png">
