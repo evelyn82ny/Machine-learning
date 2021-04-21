@@ -4,6 +4,7 @@
 
 - [Regression](https://github.com/evelyn82/Machine-learning/blob/main/Regression/README.md)
 - [Cost Function](https://github.com/evelyn82/Machine-Learning/blob/main/Regression/Cost%20function_regression.md)
+- Gradient Descent
 - Evaluation index of regression model
 - [Data scaling](https://github.com/evelyn82/Machine-learning/blob/main/Regression/Data%20scaling.md)
 - Polynomial Regression
