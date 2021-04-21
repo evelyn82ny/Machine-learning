@@ -5,10 +5,23 @@ Bias-variance tradeoff는 Supervised Learning에서 주어진 training set에 �
 - bias(편향) : 잘못된 가정으로 underfitting 문제를 발생시키는 오차<br>
 - variance(분산) : 주어진 training set에 대한 오차가 적지만, 실제 test_data에서는 큰 오차를 보여 성능이 나빠지는 overfitting을 발생시기는 오차<br>
 
-
-http://scott.fortmann-roe.com/docs/BiasVariance.html 에서 사진 사용<br>
 <img width="500" src="https://user-images.githubusercontent.com/54436228/115192618-03d43480-a126-11eb-8cdd-ba5a1ec52e57.png">
 
+> http://scott.fortmann-roe.com/docs/BiasVariance.html 에서 사진 사용
+
+<h2>over fitting</h2>
+
+<img width="703" alt="스크린샷 2021-04-21 오전 11 17 25" src="https://user-images.githubusercontent.com/54436228/115487208-2d5e9e80-a293-11eb-8929-348f4631e644.png">
+
+오른쪽으로 갈수록 demension이 높아지며 기존 데이터의 예측 성능이 높아진다.<br>
+feature의 수가 많아질수록 모든 feature를 만족시키는 모델을 만들면 demension은 엄청나게 증가하게 되는 복잡한 모델이 된다.<br>
+하지만 복잡한 모델은 새로운 데이터에서는 일반화 되지 않는 문제를 보인다.<br>
+
+<h3>overfitting 해결방법</h3>
+
+- Reduce number of features : 많은 특성 중 몇개만 선택한다.
+- Regularization : 모든 특성을 유지하되 parameters Θ에 영향을 주는 magnitude/values 를 줄인다.
+  
 
 <h2>구현</h2>
 
