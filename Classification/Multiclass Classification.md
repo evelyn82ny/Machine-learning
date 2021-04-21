@@ -35,3 +35,11 @@ h(2) : y가 2(ㅁ)일 확률<br>
 ㅇ을 기준으로 binary classification을 진행한다.<br>
 positive : ㅇ / negative : 나머지<br>
 h(3) : y가 3(ㅇ)일 확률<br>
+
+<h2>Logistic Regression Classifier</h2>
+
+y = i 일 확률을 예측한다.<br>
+<img width="500" alt="스크린샷 2021-04-21 오전 10 54 42" src="https://user-images.githubusercontent.com/54436228/115485638-123e5f80-a290-11eb-9e3f-dd15c7514e1f.png">
+
+새로운 input x에 대한 각각의 classifier를 적용하여 최대 확률을 갖는 class를 선택한다.<br>
+<img width="500" alt="스크린샷 2021-04-21 오전 10 50 00" src="https://user-images.githubusercontent.com/54436228/115485679-27b38980-a290-11eb-8c03-ed3ddb5e00d1.png">
