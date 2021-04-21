@@ -27,3 +27,16 @@ linear regression cost function에 sigmoid function을 사용할 경우 왼쪽 �
 
 - 실제 값 y가 0이고 예측 값도 0인 경우 : 일치하므로 cost = 0
 - 실제 값 y가 0인데 예측을 1로 한 경우 : cost 증가
+
+다음과 같이 식을 간단하게 변경할 수 있다.<br>
+
+<img width="500" alt="스크린샷 2021-04-21 오전 9 40 49" src="https://user-images.githubusercontent.com/54436228/115480562-b53dac00-a285-11eb-95df-e220947d9013.png">
+
+변경된 logistic funcion의 cost function 𝐽(𝜃)은 다음과 같다.<br>
+
+<img width="600" alt="스크린샷 2021-04-21 오전 9 24 32" src="https://user-images.githubusercontent.com/54436228/115480619-d8685b80-a285-11eb-8cdb-ad837acf5613.png">
+
+위 𝐽(𝜃)은 convex 함수이므로 logistic function model에서 사용된다.<br>
+maximum likelihood estimation원리로 유도된 식이며, 다른 모델들에 대해 최적의 𝜃를 구하는 가장 효율적이 함수이다.<br>
+𝐽(𝜃)를 최소로 만드는 즉, Global optimal가 되는 𝜃를 구하기 위해 gradient descent에 적용한다.<br>
+
