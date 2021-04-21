@@ -1,3 +1,5 @@
+> <h8>모든 그래프는 Andrew Ng의 Machine Learning강의에서 사용</h8>
+
 <h2>Cost function</h2>
 
 Hypothesis에 대한 값과 실제 데이터의 차이에 대한 값으로 정의된다.<br>
