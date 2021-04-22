@@ -20,3 +20,12 @@
 - [Entropy](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Entropy.md)
 - Gini coefficient
 - [Ensemble learning](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Ensemble%20Learning.md)
+
+<h2>Evaluation</h2>
+
+- Accuarcy
+- Confusion Matrix
+- Precision
+- Recall
+- F1 score
+- ROC AUC
