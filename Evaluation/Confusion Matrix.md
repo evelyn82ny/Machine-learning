@@ -23,14 +23,23 @@ Accuracy 정확도 = **(TN + TP)** / (TN + FP + FN + TP)<br>
 <h2>Precision (PPV, Positive Predictive Value)</h2>
 
 positive로 예측한 것 중 실제 값도 positive로 제대로 예측한 비율이다.
-Precision 정밀도 = TP / (FP + TP)<br>
+Precision 정밀도 = TP / (**FP** + TP)<br>
 
 <h3>recall보다 precision이 상대적으로 중요한 지표가 되는 경우 : 스팸 메일</h3>
 
+- 스팸인데 스팸이 아니라고 예측 : FN
+- **스팸메일이 아닌데 스팸이라고 예측 : FP** 
+
+FN 보다 **FP**의 경우가 더 큰 문제가 된다.<br>
 
 <h2>Recall</h2>
 
 실제 값이 positive인것 중 positive로 제대로 예측한 비율이다.<br>
-Recall 재현융 = TP / (FN + TP)<br>
+Recall 재현융 = TP / (**FN** + TP)<br>
 
 <h3>precision보다 recall이 상대적으로 중요한 지표가 되는 경우 : 암 진단, 금융 사기 판별</h3>
+
+- 암이 아닌데 암이라고 예측 : FP
+- **암인데 암이 아니라고 예측 : FN**
+
+2가지 예측의 경우 모두 큰 문제가 되지만, FN이 상대적으로 더 큰 문제를 발생한다.<br>
