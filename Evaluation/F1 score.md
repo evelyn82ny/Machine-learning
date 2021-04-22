@@ -21,3 +21,17 @@ recall과 precision의 값이 비슷할수록 F1 score 값이 증가하여 좋�
 
 > 산술 평균 arithmetic mean = (0.01 + 1) / 2 = 0.505<br>
 > 조화 평균 harmonic mean = 2 * (1 * 0.01) / (1 + 0.01) = 0.0198<br>
+
+***
+
+<h2>Arithmetic mean</h2>
+
+Arithmetic mean 산술평균이란 주어진 모든 수의 합을 주어진 수의 개수로 나눈 값이다.<br>
+
+<img width="274" alt="스크린샷 2021-04-22 오후 3 06 30" src="https://user-images.githubusercontent.com/54436228/115664093-5e66ce00-a37c-11eb-826c-1b34124b128f.png">
+
+> 사진은 wikipedia에서 사용
+
+<img width="214" alt="스크린샷 2021-04-22 오후 3 06 39" src="https://user-images.githubusercontent.com/54436228/115664160-72aacb00-a37c-11eb-814c-18835cb19bae.png">
+
+> 그래프는 gaussian37.github.io 에서 사용
