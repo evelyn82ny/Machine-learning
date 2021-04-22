@@ -23,9 +23,7 @@
 
 <h2>Evaluation</h2>
 
-- Accuarcy
-- Confusion Matrix
-- Precision
-- Recall
-- F1 score
+- Accuarcy + Precision + Recall
+- Precision / Recall trade-off
+- [F1 score](https://github.com/evelyn82/Machine-Learning/blob/main/Evaluation/F1%20score.md)
 - ROC AUC
