@@ -24,7 +24,7 @@ recall과 precision의 값이 비슷할수록 F1 score 값이 증가하여 좋�
 
 ***
 
-> 아래 모든 수식은 wikipedia 에서 사용
+> 아래 모든 수식은 wikipedia 에서 사용<br>
 > 아래 모든 그래프는 gaussian37.github.io 에서 사용
 
 <h2>Arithmetic mean</h2>
