@@ -1,4 +1,4 @@
-> <h8>모든 그래프는 Andrew Ng의 Machine Learning강의에서 사용</h8>
+> 모든 그래프는 Andrew Ng의 Machine Learning강의에서 사용
 
 <h2>Cost Function</h2>
 
