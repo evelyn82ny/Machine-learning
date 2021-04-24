@@ -1,3 +1,5 @@
+> 모든 그래프는 Andrew Ng의 Machine Learning강의에서 사용
+
 <h2>Multiclass Classification</h2>
 
 여러개의 class로 분류되는 문제를 multi-class classification이라고 한다.<br>
