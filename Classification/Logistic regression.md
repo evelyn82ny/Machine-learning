@@ -1,3 +1,5 @@
+> 모든 그래프는 Andrew Ng의 Machine Learning강의에서 사용
+
 <h2>Classification</h2>
 
 - binary classification : negative/positive 처럼 2가지 class로 분류
