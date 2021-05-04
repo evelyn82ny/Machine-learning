@@ -4,7 +4,9 @@
 
 Hypothesis에 대한 값과 실제 데이터의 차이에 대한 값으로 정의된다.<br>
 cost function을 **𝐽(𝜃)** 라고 하며, **𝐽(𝜃)의 값이 최소가 되도록 θ를 찾는다.**<br>
+
 <img width="308" alt="스크린샷 2021-04-17 오후 1 14 47" src="https://user-images.githubusercontent.com/54436228/115101413-f761a780-9f7e-11eb-8f6b-061e1d118721.png">
+
 <img width="650" alt="스크린샷 2021-04-21 오후 1 28 28" src="https://user-images.githubusercontent.com/54436228/115496906-994a0280-a2a5-11eb-8bf2-2bae9d1da190.png">
 
 **ℎ𝜃(𝑥)−𝑦** 를 error(오차)라고 하며, 오차의 값은 양수 / 음수의 값이 나온다.<br>
