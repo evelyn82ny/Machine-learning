@@ -14,7 +14,7 @@ Confusion Matrix 오차 행렬이란 binary Search의 예측 오류가 얼마이
 <h2>Accurary</h2>
 
 Accuracy 정확도 = **(TN + TP)** / (TN + FP + FN + TP)<br>
-전체 데이터에서 **제대로 얘측**한 비율이다.
+전체 데이터에서 **제대로 예측**한 비율이다.
 
 하지만 데이터가 imbalanced 한 경우 사용하면 안된다.<br>
 1000명중 998명은 암이 아니고 2명만 암인 경우 적합한 평가 지표가 아니다.<br>
