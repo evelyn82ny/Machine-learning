@@ -29,7 +29,7 @@ label encoding의 숫자 크고 작음의 문제를 해결하기 위해 feature 
 items=['cpp', 'java', 'java', 'python', 'ruby','swift','ruby']
 ```
 
-<img width="175" alt="스크린샷 2021-05-10 오후 1 08 05" src="https://user-images.githubusercontent.com/54436228/117604824-4fac5380-b191-11eb-8a11-ff7258fce05a.png">
+<img width="200" alt="스크린샷 2021-05-10 오후 1 08 05" src="https://user-images.githubusercontent.com/54436228/117604824-4fac5380-b191-11eb-8a11-ff7258fce05a.png">
 
 - cpp    : 1 0 0 0 0
 - java   : 0 1 0 0 0
@@ -37,3 +37,4 @@ items=['cpp', 'java', 'java', 'python', 'ruby','swift','ruby']
 - ruby   : 0 0 0 1 0
 - swift  : 0 0 0 0 1
 
+items을 one-hot encoding 한 결과는 다음과 같다.<br>
