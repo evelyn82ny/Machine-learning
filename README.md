@@ -4,7 +4,6 @@
 - [Cost Function](https://github.com/evelyn82/Machine-Learning/blob/main/Regression/Cost%20function_regression.md)
 - Gradient Descent
 - Evaluation index of regression model
-- [Data scaling](https://github.com/evelyn82/Machine-learning/blob/main/Regression/Data%20scaling.md)
 - Polynomial Regression
 - [Bias-variance tradeoff : overfitting](https://github.com/evelyn82/Machine-learning/blob/main/Regression/Bias-variance%20tradeoff.md)
 - [Regularization](https://github.com/evelyn82/Machine-Learning/blob/main/Regression/Regularization.md)
@@ -18,6 +17,11 @@
 - [Entropy](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Entropy.md)
 - Gini coefficient
 - [Ensemble learning](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Ensemble%20Learning.md)
+
+<h2>Data preprocessing</h2>
+
+- [encoding](https://github.com/evelyn82/Machine-Learning/blob/main/Data%20preprocessing/encoding.md)
+- [Data scaling](https://github.com/evelyn82/Machine-learning/blob/main/Regression/Data%20scaling.md)
 
 <h2>Evaluation</h2>
 
