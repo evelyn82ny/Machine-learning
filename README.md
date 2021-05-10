@@ -1,5 +1,3 @@
-<h1>Machine-learning</h1>
-
 <h2>Regression</h2>
 
 - [Regression](https://github.com/evelyn82/Machine-learning/blob/main/Regression/README.md)
