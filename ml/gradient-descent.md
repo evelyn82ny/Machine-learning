@@ -1,4 +1,6 @@
-# 신경망 (뉴렬 네트워크, neural network)
+# 신경망 (뉴럴 네트워크, neural network)
+
+![png](/_img/neural_network.png) <br>
 
 입력에 대한 실제 출력과 목표출력(target)을 근접한 값을 갖도록 가중치를 조정하는 작업을 신경망 학습이라고 한다.<br>
 신경망 학습법은 분석적 기법과 에러 정정 기법 2가지 방식이 있다.<br>
@@ -7,13 +9,15 @@
 - 에러 정정 기법 : 오차를 점진적으로 줄여가는 방식으로 퍼셉트론 학습법, 기울기 강하 기법이 있다.
   - 기울기 강하 기법은 단층 신경망에 적용되는 델타 규칙과 다층 신경망에 적용되는 백프로퍼게이션(역전파 학습) 알고리즘이 있다.
 
-## 분석적 기법 : Wiener fitter model
+## 분석적 기법 : Wiener filter model
 
-Wiener fitter란 신호 잡음 최소화를 위한 선형 필터 모델이다.<br>
+![png](/_img/wiener_filter_model.png) <br>
+
+Wiener filter란 신호 잡음 최소화를 위한 선형 필터 모델이다.<br>
 입력 신호 x와 가중치 w를 곱한 모든 합이 실제 출력 결과인데, 이 실제 출력 결과와 목표 출력(target)이 근접한 값을 갖도록 가중치 w를 조정한다. 편향이 0이라고 가정할 때 가중치 w를 조정한다는 측면에서 보면 선형 뉴런 모델과 동일하다.<br>
-손실 함수(loss function)는 **MSE(평균 제곱 에러)**를 사용하고 손실 함수 최소화를 위한 분석적인 해는 다음과 같다.<br>
+손실 함수(loss function)는 **MSE(평균 제곱 에러)** 를 사용하고 손실 함수 최소화를 위한 분석적인 해는 다음과 같다.<br>
 
-// 4p 수식추가
+![png](/_img/loss_function_w.png) <br>
 
 행렬의 inverse가 존재하지 않는 singular(비가역) 이면 계산이 불가해서 Wiener 필터 모델을 신경망에 적용하기 적절하지 않다고 결론났다.<br><br>
 
@@ -77,6 +81,9 @@ learning rate가 작은 값이면 왼쪽과 같이 수렴하는 과정이 길어
 수렴 상태에 도달하기 위해 가중치 w를 변경하기 위해 gradient descent를 적용하고 식은 다음과 같다.<br>
 
 ![png](/_img/gradient_expression.png) <br>
+![png](/_img/neural_network.png) <br>
+
+입력 샘플에 대한 손실함수를 통해 최적의 가중치를 계속해서 갱신한다.<br>
 
 
 
