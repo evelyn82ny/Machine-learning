@@ -1,6 +1,6 @@
 ## machine learning
 
-- [신경망]((https://github.com/evelyn82/Machine-learning/blob/main/Regression/README.md))
+- [7.1 Gradient Descent](https://github.com/evelyn82/Machine-learning/blob/main/ml/gradient-descent.md)
 
 ## Regression
 
