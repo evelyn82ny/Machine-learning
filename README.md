@@ -1,4 +1,8 @@
-<h2>Regression</h2>
+## machine learning
+
+- [신경망]((https://github.com/evelyn82/Machine-learning/blob/main/Regression/README.md))
+
+## Regression
 
 - [Regression](https://github.com/evelyn82/Machine-learning/blob/main/Regression/README.md)
 - [Cost Function](https://github.com/evelyn82/Machine-Learning/blob/main/Regression/Cost%20function_regression.md)
@@ -8,7 +12,7 @@
 - [Bias-variance tradeoff : overfitting](https://github.com/evelyn82/Machine-learning/blob/main/Regression/Bias-variance%20tradeoff.md)
 - [Regularization](https://github.com/evelyn82/Machine-Learning/blob/main/Regression/Regularization.md)
 
-<h2>Classification</h2>
+## Classification
 
 - [Classification : Logistic regression](https://github.com/evelyn82/Machine-Learning/blob/main/Classification/Logistic%20regression.md)
 - [Cost Function](https://github.com/evelyn82/Machine-Learning/blob/main/Classification/Cost%20Function_classification.md)
@@ -18,12 +22,12 @@
 - Gini coefficient
 - [Ensemble learning](https://github.com/evelyn82/Machine-learning/blob/main/Classification/Ensemble%20Learning.md)
 
-<h2>Data preprocessing</h2>
+## Data preprocessing
 
 - [encoding](https://github.com/evelyn82/Machine-Learning/blob/main/Data%20preprocessing/encoding.md)
 - [Data scaling](https://github.com/evelyn82/Machine-learning/blob/main/Regression/Data%20scaling.md)
 
-<h2>Evaluation</h2>
+## Evaluation
 
 - [Accuarcy + Precision + Recall](https://github.com/evelyn82/Machine-Learning/blob/main/Evaluation/Confusion%20Matrix.md)
 - Precision / Recall trade-off
