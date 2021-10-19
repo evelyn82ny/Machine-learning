@@ -1,6 +1,6 @@
 ## machine learning
 
-- [5.1 Neural network + activation function](https://github.com/evelyn82/Machine-learning/blob/main/ml/neural-network.md)
+- [5.1 activation function](https://github.com/evelyn82/Machine-learning/blob/main/ml/activation-function].md)
 - [7.1 Gradient Descent](https://github.com/evelyn82/Machine-learning/blob/main/Regression/gradient-descent.md)
 - [7.2 Delta rule (Widrow & Hoff 학습법)](https://github.com/evelyn82/Machine-learning/blob/main/Regression/delta-rule.md)
 
