@@ -71,15 +71,18 @@ sigmoid 함수, ReLU, softmax 함수 같은 non-linear 활성화 함수를 사�
 
 ### 입력층 -> 은닉층
 
+![png](/_img/ml/input_layer_expression.png) <br>
 입력값 x와 가중치 W를 행렬 곱셈연산한 결과에 bias를 더한 값이 v이다.<br>
 가중합 v를 다음 계층 노드에 그대로 저장하는 것이 아니라 활성화 함수로 변환한 출력값 h를 저장한다.<br>
 
 ### 은닉층 -> 은닉층
 
+![png](/_img/ml/hidden_layer_expression.png) <br>
 은닉층끼리 처리하는 방식도 입력 계층과 동일한 방식이지만 입력값이 아닌 **활성화 함수로 변환한 출력값 h**를 사용한다.<br>
 
 ### 은닉층 -> 출력층
 
+![png](/_img/ml/output_layer_expression.png) <br>
 은닉층에서 출력층으로 가는 처리 방식도 **활성화 함수로 변환한 출력값 h**를 사용<br><br>
 
 ## 단일모드, 배치 모드
