@@ -11,7 +11,7 @@
 
 - [Regression](https://github.com/evelyn82/Machine-learning/blob/main/Regression/README.md)
 - [Cost Function](https://github.com/evelyn82/Machine-learning/blob/main/Regression/cost-function-regression.md)
-- Gradient Descent
+- [Gradient Descent](https://github.com/evelyn82/Machine-learning/blob/main/Regression/gradient-descent.md)
 - Evaluation index of regression model
 - Polynomial Regression
 - [Bias-variance tradeoff : overfitting](https://github.com/evelyn82/Machine-learning/blob/main/Regression/bias-variance-tradeoff.md)
