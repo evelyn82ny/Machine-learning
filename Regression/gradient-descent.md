@@ -1,4 +1,4 @@
-# 신경망 (뉴럴 네트워크, neural network)
+# 신경망 학습방법
 
 ![png](/_img/regression/neural_network.png) <br>
 
@@ -14,7 +14,8 @@
 ![png](/_img/regression/wiener_filter_model.png) <br>
 
 Wiener filter란 신호 잡음 최소화를 위한 선형 필터 모델이다.<br>
-입력 신호 x와 가중치 w를 곱한 모든 합이 실제 출력 결과인데, 이 실제 출력 결과와 목표 출력(target)이 근접한 값을 갖도록 가중치 w를 조정한다. 편향이 0이라고 가정할 때 가중치 w를 조정한다는 측면에서 보면 선형 뉴런 모델과 동일하다.<br>
+입력 신호 x와 가중치 w를 곱셈 연산한 출력 결과와 목표 출력(target)이 근접한 값을 갖도록 가중치 w를 조정한다.<br>
+편향이 0이라고 가정할 때 가중치 w를 조정한다는 측면에서 보면 선형 뉴런 모델과 동일하다.<br>
 손실 함수(loss function)는 **MSE(평균 제곱 에러)** 를 사용하고 손실 함수 최소화를 위한 분석적인 해는 다음과 같다.<br>
 
 ![png](/_img/regression/loss_function_w.png) <br>
@@ -27,9 +28,10 @@ Wiener filter란 신호 잡음 최소화를 위한 선형 필터 모델이다.<b
 2. 출력 y와 목표 출력 d 간의 차이인 손실(에러)가 줄어들도록 가중치를 변경한다.
 
 에러 정정 기법은 과정 1, 2를 모든 입력 샘플에 대해 반복하며 최적의 가중치를 찾는다.<br>
-분석적 기법은 모든 입력 x와 가중치 w를 곱한 결과를 모두 더해 가중치를 조정했다면, 에러 정정 기법은 입력 샘플을 계산하면서 가중치를 바꿔나간다는 차이가 있다. 또한 분석적 기법은 수식으로 해결한다면 에러 정정 기법은 수식이 아니고 튜닝을 한다는 개념이다.<br>
+분석적 기법은 모든 연산을 처리한 다음 가중치를 조정했다면, 에러 정정 기법은 입력 샘플을 계산하면서 가중치를 바꿔나간다는 차이가 있다.<br>
+또한 분석적 기법은 수식으로 해결한다면 에러 정정 기법은 수식이 아니고 튜닝을 한다는 개념이다.<br>
 
-- 손실 함수 정량화로 목표 출력과 실제 출력을 계산하고
+- 손실 함수 정량화로 손실(에러, 목표 출력 - 실제 출력)을 계산하고
 - 기울기 강하 기법으로 손실이 줄어들도록 가중치를 변경한다.
 
 ## Loss function
@@ -37,7 +39,7 @@ Wiener filter란 신호 잡음 최소화를 위한 선형 필터 모델이다.<b
 손실함수는 목표치와 실제 출력 간의 차이(손실, 에러)를 계량화하는 함수로 오차함수, 에러함수라고도 한다.<br>
 손실함수의 종류는 평균제곱에러(for regression), 교차엔트로피 에러(for classification) 등이 있다.<br>
 
-- MSE 평균제곱에러 : 출력값과 목표치 차이에 제곱에 1/2를 곱하고, 모든 입력에 대한 해당 값의 평균
+- MSE 평균제곱에러 : 출력값과 목표치 차이에 제곱에 1/2를 곱한 값. 모든 입력에 대한 해당 값의 평균
 
 <br>
 
@@ -69,7 +71,7 @@ learning rate가 작은 값이면 왼쪽과 같이 수렴하는 과정이 길어
 
 ## gradient descent의 한계점
 
-![png](/_img/regression/global_minima.png) <br>
+![png](/_img/regression/minima.png) <br>
 
 여러 최소점이 존해하는데 이를 local minima라고 한다. 여러개의 local minima 중 제일 작은 값인 global minima(전역 최소점)를 찾아야 한다.<br>
 하지만 global minima가 아닌 다른 지점에서 local minima에 도달했다면 global minima에 도달할 수 없는데 이것이 gradient descent의 한계점이다.<br>
@@ -78,12 +80,9 @@ learning rate가 작은 값이면 왼쪽과 같이 수렴하는 과정이 길어
 
 신경망에서는 가중치 갱신에 gradient descent를 적용한다.<br>
 신경망의 loss function L(x, w) 에서 입력 x는 사실상 상수이므로 가중치 w에 의해 값이 결정된다.<br>
-수렴 상태에 도달하기 위해 가중치 w를 변경하기 위해 gradient descent를 적용하고 식은 다음과 같다.<br>
 
-![png](/_img/regression/gradient_expression.png) <br>
 ![png](/_img/regression/neural_network.png) <br>
-
-입력 샘플에 대한 손실함수를 통해 최적의 가중치를 계속해서 갱신한다.<br>
+손실 함수를 통해 gradient descent 기법으로 가중치 w를 변경해 가면서 수렴상태에 도달한다.<br>
 
 
 
