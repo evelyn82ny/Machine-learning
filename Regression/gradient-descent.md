@@ -80,7 +80,6 @@ learning rate가 작은 값이면 왼쪽과 같이 수렴하는 과정이 길어
 
 신경망에서는 가중치 갱신에 gradient descent를 적용한다.<br>
 신경망의 loss function L(x, w) 에서 입력 x는 사실상 상수이므로 가중치 w에 의해 값이 결정된다.<br>
-
 ![png](/_img/regression/neural_network.png) <br>
 손실 함수를 통해 gradient descent 기법으로 가중치 w를 변경해 가면서 수렴상태에 도달한다.<br>
 
