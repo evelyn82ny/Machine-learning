@@ -39,7 +39,7 @@ Wiener filter란 신호 잡음 최소화를 위한 선형 필터 모델이다.<b
 손실함수는 목표치와 실제 출력 간의 차이(손실, 에러)를 계량화하는 함수로 오차함수, 에러함수라고도 한다.<br>
 손실함수의 종류는 평균제곱에러(for regression), 교차엔트로피 에러(for classification) 등이 있다.<br>
 
-- MSE 평균제곱에러 : 출력값과 목표치 차이에 제곱에 1/2를 곱한 값. 모든 입력에 대한 해당 값의 평균
+- MSE 평균제곱에러 : 목표치와 출력값 차이의 제곱에 대한 평균
 
 <br>
 
@@ -54,7 +54,7 @@ Wiener filter란 신호 잡음 최소화를 위한 선형 필터 모델이다.<b
 
 ## learning rate
 
-갱신시점마다 얼마나 증분할 것인가 대해서도 고민해야 하는데 다음지점을 구하기 위해 갱신률(update rate, learning rate) 사용한 식은 다음과 같다.<br>
+갱신시점마다 얼마나 증분할 것인가 대해서도 고민해야 하는데 다음지점을 구하는 식은 다음과 같다.<br>
 
 ![png](/_img/regression/gradient_expression.png) <br>
 ![png](/_img/regression/gradient2.png) <br>
@@ -71,7 +71,7 @@ learning rate가 작은 값이면 왼쪽과 같이 수렴하는 과정이 길어
 
 ## gradient descent의 한계점
 
-![png](/_img/regression/minima.png) <br>
+![png](/_img/regression/minima_2d.png) <br>
 
 여러 최소점이 존해하는데 이를 local minima라고 한다. 여러개의 local minima 중 제일 작은 값인 global minima(전역 최소점)를 찾아야 한다.<br>
 하지만 global minima가 아닌 다른 지점에서 local minima에 도달했다면 global minima에 도달할 수 없는데 이것이 gradient descent의 한계점이다.<br>

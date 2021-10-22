@@ -18,7 +18,7 @@ MSE는 입력 샘플과 가중치가 필요한데 입력 샘플은 사실상 상
 입력 성분이 2개인 경우 위 MSE 수식이 다음과 같은 식이 된다.<br>
 ![png](/_img/regression/delta_loss_two_dimensional_expression.png) <br>
 
-## delta rule의 learning rate(증분값)
+## delta rule의 증분값
 
 ![png](/_img/regression/delta_learning_rate.png) <br>
 
