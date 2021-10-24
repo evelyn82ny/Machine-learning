@@ -11,6 +11,7 @@
 
 편향을 계산하지 않고 입력의 전치 행렬과 가중치 행렬의 곱셈 연산한 결과를 **순수 가중입력합**이라고 한다.<br>
 순수 가중입력합에 어파인 변환(affine transformation)을 적용하는 효과를 주기 위해 bias를 더한다.<br>
+> 어파인 연산에 대한 자세한 내용 : [https://namunotebook.tistory.com/29](https://namunotebook.tistory.com/29)<br>
 
 벡터 연산 결과에 편향까지 더한 가중입력합의 수식은 다음과 같다.<br>
 
@@ -33,9 +34,9 @@
 piecewise-linear 함수는 선형 함수에 **Squashing을 도입**한 함수이다.<br>
 Squashing을 도입했다는 의미는 어떤 기준을 넘어서면 증가/감소하지 않는 것을 말한다.<br>
 
-## Signum function
+## Sign function
 
-![png](/_img/ml/signum_function.png) <br>
+![png](/_img/ml/sign_function.png) <br>
 계단함수로 3가지 출력이 존재하지만 초기 뉴런에 적용될 땐 입력이 0인 경우도 1로 출력해 2가지 출력만 사용했다.<br>
 
 ## Rectified linear function
@@ -47,12 +48,10 @@ Linear threshold function 이라고도 하는 해당 함수는 **가중합이 �
 ![png](/_img/ml/leaky_relu.png) <br>
 축약명으로 ReLU를 사용하고 위 그래프와 같이 가중합이 음수인 경우에 음수를 출력하는 Leaky ReLU 변형이 존재한다.<br>
 
-## logistic Sigmoid function
+## Logistic sigmoid function
 
-![png](/_img/ml/sigmoid_function.png) <br>
+![png](/_img/ml/sigmoid_function2.png) <br>
 [0, 1] 범위의 출력 값을 갖는 smooth 함수이다.<br>
-
-![png](/_img/ml/sigmoid_function_differentiation.png) <br>
 로지스틱 시그모이드 함수는 미분이 가능하기 때문에 기울기 강하 기반 신경망 학습에 적합하다.<br>
 
 ## Hyperbolic tangent function
