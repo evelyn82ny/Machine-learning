@@ -3,7 +3,8 @@
 퍼셉트론은 선형 분리에만 적용 가능해 xor 연산을 처리할 수 없는 한계가 있는데 이를 해결한 것이 FNN 이다.<br>
 
 ![png](/_img/ml/fnn_xor.png) <br>
-2개의 계층으로 구성된 **다층 퍼셉트론(MLP, multi-layer perception)** 으로 XOR 기능을 구현하며 한계를 극복했다. 점점 hidden layer가 많아지면서 학습 데이터 규모가 커지고 계산량이 늘어나 학습이 어려워지는 또 다른 문제가 발생했지만 이를 오류 역전파 알고리즘(propagation)으로 해결했다.<br>
+2개의 계층으로 구성된 **다층 퍼셉트론(MLP, multi-layer perception)** 으로 XOR 기능을 구현하며 한계를 극복했다.<br>
+점점 hidden layer가 많아지면서 학습 데이터 규모가 커지고 계산량이 늘어나 학습이 어려워지는 또 다른 문제가 발생했지만 이를 오류 역전파 알고리즘(back propagation)으로 해결했다.<br>
 
 퍼셉트론에선 계단함수를 2가지 출력으로 변경해서 사용했기 때문에 non-linear 인 경우에는 적용하지 못했다.<br>
 non-linear 에는 계단함수가 아닌 **sigmoid 함수**를 활성화 함수로 사용한다.<br>
@@ -35,7 +36,7 @@ q개의 클래스(C1, C2 ... Cq) 중에서 하나를 선택하는 다중 분류�
 
 FNN은 다음과 같은 특징이 있다.<br>
 
-- Feed forward 방식으로 no cyclic link
+- Feed forward 방식으로 Acyclic(no cyclic) link
 - 1개의 hidden layer (hidden layer가 2개 이상이면 Deep FNN)
 - 다양한 활성화 함수를 사용
 - 일반적으로 각 계층은 Fully-connected(FC 계층)
@@ -52,7 +53,7 @@ FNN은 응용에 따라 쓰는 활성화 함수가 다르다.<br>
 
 ![png](/_img/ml/softmax.png) <br>
 소프트맥스 계층은 입력값을 정규화하여 출력하며, 출력층에서만 사용된다.<br>
-입력값을 정규화한다는 것은 모든 출력값의 합이 1이 되도록 변형한다는 것인데 확률로 변환한다.<br>
+입력값을 정규화한다는 것은 모든 출력값의 합이 1인 확률로 변환한다.<br>
 
 ### Affine 계층
 
