@@ -6,6 +6,7 @@
 - [6 FNN](https://github.com/evelyn82/Machine-learning/blob/main/ml/fnn.md)
 - [7.1 Gradient Descent](https://github.com/evelyn82/Machine-learning/blob/main/Regression/gradient-descent.md)
 - [7.2 Delta rule (Widrow & Hoff 학습법)](https://github.com/evelyn82/Machine-learning/blob/main/Regression/delta-rule.md)
+- [7.3 Backpropagation](https://github.com/evelyn82/Machine-learning/blob/main/ml/backpropagation.md)
 
 ## Regression
 
